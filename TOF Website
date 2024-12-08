@@ -1,0 +1,177 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('path-to-your-hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.cta-buttons a {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    font-size: 1rem;
+}
+
+.cta-buttons a:hover {
+    background-color: #d62828;
+}
+
+/* Music Section */
+#music {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.music-player {
+    margin-bottom: 20px;
+}
+
+.music-links a {
+    display: inline-block;
+    background-color: #457b9d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.music-links a:hover {
+    background-color: #1d3557;
+}
+
+/* Merch Section */
+#merch {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f1faee;
+}
+
+.merch-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.merch-item {
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.merch-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.buy-btn {
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.buy-btn:hover {
+    background-color: #d62828;
+}
+
+/* About Section */
+#about {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#contact a {
+    color: #e63946;
+}
+
+#contact ul {
+    margin-top: 10px;
+}
+
+#contact ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
